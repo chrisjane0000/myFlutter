@@ -23,19 +23,21 @@ class MyApp extends StatelessWidget {
           ),
           backgroundColor: Colors.purpleAccent, // Change AppBar background color.
         ),
+        backgroundColor: Colors.purple[50], // Set the full background color of the Scaffold.
         body: Column(
           children: const [
+            SizedBox(height: 30, width: 100,), // Add vertical space between AppBar title and first text.
             Text(
               "Simple Woman",
               style: TextStyle(
                 fontSize: 24, // Make the text larger.
               ),
             ),
+            SizedBox(height: 20, width: 100,), // Add vertical space between the two texts.
             Text(
-              "This is the second line",
+              "Still Learning",
               style: TextStyle(
                 fontSize: 24, // Make the text larger.
-                fontWeight: FontWeight.bold, // Optional: Make the text bold.
               ),
             ),
           ],
